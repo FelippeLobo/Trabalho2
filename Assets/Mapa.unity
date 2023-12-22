@@ -660,7 +660,7 @@ GameObject:
   - component: {fileID: 597341695}
   - component: {fileID: 597341699}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: CheckPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -736,7 +736,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 597341694}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 5129138883318404047, guid: 3c37ffcb9b2db5047b607bc24b6fa485, type: 3}
 --- !u!4 &597341698
 Transform:
   m_ObjectHideFlags: 0
@@ -746,8 +746,8 @@ Transform:
   m_GameObject: {fileID: 597341694}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 175.4, y: 40.9, z: 14.9}
-  m_LocalScale: {x: 50, y: 50, z: 50}
+  m_LocalPosition: {x: 175.4, y: 43.4, z: 14.9}
+  m_LocalScale: {x: 15.000001, y: 15.000001, z: 15.000001}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -765,9 +765,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationAngle: {x: 0, y: 1, z: 0}
-  rotationSpeed: 10
-  floatSpeed: 0.5
-  floatRate: 0.5
+  rotationSpeed: 75
+  floatSpeed: 0.1
+  floatRate: 0.4
   floatTimer: 0
   goingUp: 1
 --- !u!1 &638781016 stripped

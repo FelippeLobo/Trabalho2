@@ -35,18 +35,18 @@ public class TriggerCheckpoint : MonoBehaviour
 
 
     void OnTriggerEnter(Collider other){
-         UnityEngine.Debug.Log("Entrei");
         if(other.gameObject.name == "Player"){
             UnityEngine.Debug.Log("Entrei");
             other.gameObject.GetComponent<PlayerController>().reachCheckpoint();
             gameObject.GetComponent<Renderer>().material.SetColor("_Color", UnityEngine.Color.red);
+            this.gameObject.SetActive(false);
         }
     }
 
       void OnTriggerExit(Collider other){
         if(other.gameObject.name == "Player"){
-            UnityEngine.Debug.Log("Sai");
-            gameObject.GetComponent<Renderer>().material.SetColor("_Color", UnityEngine.Color.blue);
+        
         }
     }
+
 }
