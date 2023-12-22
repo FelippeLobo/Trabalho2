@@ -361,6 +361,7 @@
 "Assets/Scripts/AIController.cs"
 "Assets/Scripts/EnemyController.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/SceneController.cs"
 "Assets/Scripts/Teste.cs"
 "Assets/Scripts/TriggerCheckpoint.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
