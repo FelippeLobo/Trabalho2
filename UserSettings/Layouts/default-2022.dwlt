@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 41
+  controlID: 108
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -411,8 +411,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 24.8}
-      snapOffsetDelta: {x: 0, y: 0.20000076}
+      snapOffset: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
       index: 0
@@ -425,7 +425,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 1
       id: unity-search-toolbar
       index: 1
@@ -477,7 +477,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Light Settings
       index: 0
@@ -503,7 +503,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Cloth Constraints
       index: 1
@@ -516,7 +516,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Cloth Collisions
       index: 2
@@ -568,7 +568,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Occlusion Culling
       index: 3
@@ -581,7 +581,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Physics Debugger
       index: 4
@@ -594,7 +594,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Scene Visibility
       index: 5
@@ -607,7 +607,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Particles
       index: 6
@@ -734,17 +734,17 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_WindowGUID: efa68555b6de1254dabb3f0b03d0eaf9
   m_Gizmos: 1
-  m_OverrideSceneCullingMask: 0
-  m_SceneIsLit: 0
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
   m_SceneLighting: 1
   m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -6.5199995, y: 43.03, z: -225.7}
+    m_Target: {x: 208.54834, y: 102.40588, z: 453.02753}
     speed: 2
-    m_Value: {x: 208.54834, y: 102.40588, z: 453.02753}
+    m_Value: {x: -6.5199995, y: 43.03, z: -225.7}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -755,7 +755,7 @@ MonoBehaviour:
   m_SceneViewState:
     m_AlwaysRefresh: 0
     showFog: 1
-    showSkybox: 0
+    showSkybox: 1
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
@@ -792,11 +792,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.3090667, y: -0.6823161, z: 0.3982344, w: -0.52955157}
     speed: 2
-    m_Value: {x: -0.30905235, y: -0.6822844, z: 0.3982159, w: -0.52952695}
+    m_Value: {x: 0.30906668, y: 0.68231606, z: -0.3982344, w: 0.52955157}
   m_Size:
-    m_Target: 52.13473
+    m_Target: 562.0624
     speed: 2
-    m_Value: 562.0624
+    m_Value: 52.13473
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -866,7 +866,7 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - "Assets/Anima\xE7\xF5es/Inimigo"
+    - Assets/3DS - The Legend of Zelda Ocarina of Time 3D - Kokiri Forest (1)
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -874,16 +874,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - "Assets/Anima\xE7\xF5es/Inimigo"
+  - Assets/3DS - The Legend of Zelda Ocarina of Time 3D - Kokiri Forest (1)
   m_LastFoldersGridSize: 57
   m_LastProjectPath: D:\Pasta das pastas\DesenvolvimentoJogos\Trabalho2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: ce5b0000
-    m_LastClickedID: 23502
-    m_ExpandedIDs: 00000000b85b0000be5b0000c05b0000c45b0000ce5b0000d05b000000ca9a3b
+    scrollPos: {x: 0, y: 16}
+    m_SelectedIDs: be5b0000
+    m_LastClickedID: 23486
+    m_ExpandedIDs: 00000000b85b0000c05b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -938,7 +938,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300007e690000006200008c6600008a6600004e63000058630000546300005263000096710000fa760000f8770000b0890000168a00007687000090c00000d88e00009666000012da0000a80501002e0601009c66000098660000166800000a8300006a69000000000000585801009a6101008e73000090fc000094fc0000c0fb000078fd00008cfc000040fb00009cfc000070fd0000d8fc00003cfd0000b4fb000068fd0000b4fc000010fd00000cfb00007cfd000088fb0000c0fc000020fd0000ecfc000050fd000068fb000000fd000024fd000038fd0000dcfa0000f0fa00006cfc0000b8fc00005cfb0000b4a7000006b900000aaa0000d220000078670000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1003,10 +1003,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 445}
+      scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 12caffff16caffff1acaffff22caffff26caffff2acaffff32caffff36caffff3acaffff42caffff46caffff4acaffff52caffff56caffff5acaffff5ecaffff62caffff66caffff6acaffff72caffff76caffff7ecaffff82caffff86caffff8ecaffff92caffff96caffff9ecaffffa2caffffa6caffffaecaffffb2caffffb6caffffbecaffffc2caffffc6caffffcacaffffcecaffffd2caffffd6caffffdacaffffdecaffffe2caffffeacaffffeecafffff2cafffff6cafffffecaffff02cbffff06cbffff0acbffff0ecbffff22cbffff20620000
+      m_ExpandedIDs: 14fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
