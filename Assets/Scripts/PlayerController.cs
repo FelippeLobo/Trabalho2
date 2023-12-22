@@ -8,10 +8,14 @@ public class PlayerController : MonoBehaviour
 {
     private CharacterController controller;
     private Animator animator;
+    private Rigidbody rigidBody;
 
     public float speed;
     public float gravity;
     public float rotSpeed;
+    public float jumpForce;
+
+    private int checkPoints;
 
     private static float speedBase = 100;
     private float rot;
@@ -21,6 +25,8 @@ public class PlayerController : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
+        rigidBody = GetComponent<Rigidbody>();
+        checkPoints = 0;
     }
 
     
@@ -35,15 +41,17 @@ public class PlayerController : MonoBehaviour
         if(controller.isGrounded){
 
             if(Input.GetKey(KeyCode.W)){
-                moveDirection.y -= gravity * Time.deltaTime;
                 moveDirection = UnityEngine.Vector3.forward * speed;
-                
+
+
                 if(Input.GetKey(KeyCode.LeftShift)){
                     speed = speedBase * 2;
                     animator.SetInteger("transition", 2);
                 }else{
                     animator.SetInteger("transition", 1);
-                }
+                }   
+
+
 
                 if(Input.GetKeyUp(KeyCode.LeftShift)){
                     speed = speedBase / 2;
@@ -56,16 +64,33 @@ public class PlayerController : MonoBehaviour
                     moveDirection = UnityEngine.Vector3.zero;
                     animator.SetInteger("transition", 0);
             }
-          
-            moveDirection.y -= gravity * Time.deltaTime;
+            
+            if(Input.GetKeyUp(KeyCode.LeftShift)){
+                speed = speedBase / 2;
+            }
+
+            if(Input.GetKeyDown(KeyCode.Space))
+            {   
+                moveDirection.y = jumpForce;
+                animator.SetInteger("transition",3);
+            }
+
+
+            moveDirection.y -= 2* gravity * Time.deltaTime;
         }
-        
+
+
         moveDirection.y -= gravity * Time.deltaTime;
         rot += Input.GetAxis("Horizontal") * rotSpeed * Time.deltaTime;
         transform.eulerAngles = new UnityEngine.Vector3(0, rot, 0);
 
         moveDirection = transform.TransformDirection(moveDirection);
         controller.Move(moveDirection * Time.deltaTime);
+    }
+
+    public void reachCheckpoint(){
+        this.checkPoints++;
+        UnityEngine.Debug.Log("Cheguei CheckPOINT PORRA!!!");
     }
 
 }
