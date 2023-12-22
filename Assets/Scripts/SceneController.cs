@@ -18,6 +18,6 @@ public class SceneController : MonoBehaviour
     }
 
     public void GoMainScene(){
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene("Mapa1");
     }
 }
