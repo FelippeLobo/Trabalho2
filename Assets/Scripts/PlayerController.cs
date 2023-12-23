@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     private Rigidbody rigidBody;
 
+    public GameObject painelVitoria;
     public TMP_Text count;
     public float speed;
     public float gravity;
@@ -35,6 +36,10 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Move();
+
+        if(checkPoints == 3){
+            painelVitoria.SetActive(true);
+        }
     }
 
     void Move(){

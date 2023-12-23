@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mremireh O Desbiens
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bc1d0adec687ef24a8651150a4c7942c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -90,9 +94,9 @@ Animator:
   m_GameObject: {fileID: 4110162554824114246}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5ef8be46b6c756e4e8c2fc7ac1e8e2aa, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 1
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
@@ -128,8 +132,8 @@ MonoBehaviour:
   navMeshAgent: {fileID: 1548598258022985181}
   startWaitTime: 4
   timeToRotate: 2
-  speedWalk: 25
-  speedRun: 50
+  speedWalk: 50
+  speedRun: 75
   viewRadius: 300
   viewAngle: 90
   playerMask:
@@ -183,7 +187,7 @@ NavMeshAgent:
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 3.5
-  m_Acceleration: 10000
+  m_Acceleration: 7500
   avoidancePriority: 50
   m_AngularSpeed: 300
   m_StoppingDistance: 1
@@ -213,7 +217,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1
-  m_Height: 1
+  m_Radius: 0.2
+  m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}

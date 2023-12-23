@@ -36,7 +36,7 @@ public class AIController : MonoBehaviour
  
     void Start()
     {
-        animator = GetComponent<Animator>();
+        //animator = GetComponent<Animator>();
         m_PlayerPosition = Vector3.zero;
         m_IsPatrol = true;
         m_CaughtPlayer = false;
@@ -142,15 +142,15 @@ public class AIController : MonoBehaviour
  
     private void OnAnimatorMove()
     {
-        if(navMeshAgent.speed == 0){
-            animator.SetInteger("transition", 0);
-        }
-        if(navMeshAgent.speed  > 0 && navMeshAgent.speed <= 25){
-            animator.SetInteger("transition", 1);
-        }
-        if(navMeshAgent.speed > 25){
-            animator.SetInteger("transition", 2);
-        }
+        // if(navMeshAgent.speed == 0){
+        //     animator.SetInteger("transition", 0);
+        // }
+        // if(navMeshAgent.speed  > 0 && navMeshAgent.speed <= 25){
+        //     animator.SetInteger("transition", 1);
+        // }
+        // if(navMeshAgent.speed > 25){
+        //     animator.SetInteger("transition", 2);
+        // }
     }
  
     public void NextPoint()
